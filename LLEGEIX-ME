@@ -1,4 +1,4 @@
-# DAW2 M08UF1 2021-2022 FJE CLOT
+# DAW M08UF2 VIB
  
 # m08uf1pr3
 
@@ -15,8 +15,8 @@
 
 	1.1 Crea dins del teus sistema físic una carpeta de nom m08uf1 (a on vulguis) i accedeix-hi
 	1.2 Dins de la carpeta i amb el teminal executa:
-		git clone https://github.com/dacomo2122daw2/m08uf1pr3.git
-		cd m08uf1pr3
+		git clone https://github.com/xabilla/m08uf2pt2.git
+		cd m08uf2pt2
 
 
 2. Canvia el nom de sistema de la màquina virtual:

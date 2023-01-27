@@ -1,0 +1,37 @@
+# DAW2 M08UF1 2021-2022 FJE CLOT
+ 
+# m08uf1pr3
+
+## Requisits
+
+1. Git https://git-scm.com/
+2 Virtualbox https://www.virtualbox.org/
+3. Vagrant https://www.vagrantup.com/
+4. Docker https://www.docker.com/
+
+## Pasos a seguir
+
+1. Clonar el repositori GIT i accedir al directori de treball de la pràctica:
+
+	1.1 Crea dins del teus sistema físic una carpeta de nom m08uf1 (a on vulguis) i accedeix-hi
+	1.2 Dins de la carpeta i amb el teminal executa:
+		git clone https://github.com/dacomo2122daw2/m08uf1pr3.git
+		cd m08uf1pr3
+
+
+2. Canvia el nom de sistema de la màquina virtual:
+
+	2.1 Obre Vagrantfile amb nano, geany, qualsevol IDE o qualsevol editor de texte pla.
+	2.2 Edita el paràmete config.vm.hostname i fes que el seu nou valor sigui:
+		config.vm.hostname = "xxyyzz"
+	NOTA: xxyyzz són les 2 primeres lletres del teu nom, 1r cognom i 2n cognom
+
+
+3. Inicia la màquina virtual amb les ordres de `Vagrant`:
+
+	vagrant up
+
+
+4. Accedeix a la màquina virtual per SSH, per poder realitzar el curs:
+
+	vagrant ssh
